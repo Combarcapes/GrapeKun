@@ -9,6 +9,9 @@ namespace GrapeKun
     {
         public static void Main(string[] args)
         {
+            GrapeKun grapeKun = new GrapeKun();
+            //Run Grapekun!
+            grapeKun.Run();
         }
     }
 }

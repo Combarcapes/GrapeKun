@@ -14,6 +14,8 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "GrapeKun", "src\GrapeKun\Gr
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{9A32EEC1-172C-4FE4-98B6-430A64B8C863}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "test", "test\test.xproj", "{9BB47345-7541-4DC6-92F8-F17CD14C98CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,11 +26,16 @@ Global
 		{496DD5A9-5DB5-4C07-B7C3-4CDE69DD98E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{496DD5A9-5DB5-4C07-B7C3-4CDE69DD98E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{496DD5A9-5DB5-4C07-B7C3-4CDE69DD98E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BB47345-7541-4DC6-92F8-F17CD14C98CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BB47345-7541-4DC6-92F8-F17CD14C98CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BB47345-7541-4DC6-92F8-F17CD14C98CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BB47345-7541-4DC6-92F8-F17CD14C98CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{496DD5A9-5DB5-4C07-B7C3-4CDE69DD98E3} = {02089872-D6A6-4F03-B4FB-F7C6B4B34820}
+		{9BB47345-7541-4DC6-92F8-F17CD14C98CB} = {9A32EEC1-172C-4FE4-98B6-430A64B8C863}
 	EndGlobalSection
 EndGlobal
