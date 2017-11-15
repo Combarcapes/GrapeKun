@@ -9,10 +9,12 @@ namespace GrapeKun.Logging
 {
     public class Logger : ILogger
     {
-        
+  
         public Logger()
         {
             Log.Logger = new LoggerConfiguration()
+                .MinimumLevel.Information()
+                .WriteTo.Console()
                 .Enrich.FromLogContext()
                 .CreateLogger(); 
         }

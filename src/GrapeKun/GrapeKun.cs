@@ -30,8 +30,8 @@ namespace GrapeKun
         /// <returns> Main loop task </returns>
         private async Task MainAsync()
         {
-            var client = new Discord.WebSocket.DiscordSocketClient();
-
+            var client = new DiscordSocketClient();
+            
             client.Log += Log;
 
             Configuration = AppSettings();
@@ -46,7 +46,6 @@ namespace GrapeKun
 
         private Task Log(LogMessage message)
         {
-            Console.WriteLine(message.ToString());
             logger.Info(message.ToString());
             return Task.CompletedTask;
         }

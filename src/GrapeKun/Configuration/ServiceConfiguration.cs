@@ -15,7 +15,6 @@ namespace GrapeKun.Configuration
         public ServiceProvider ServiceProvider
         {
             get { return serviceProvider; }
-            set { serviceProvider = value; }
         }
 
         public ServiceConfiguration(IServiceCollection services)
@@ -23,9 +22,7 @@ namespace GrapeKun.Configuration
             //Add Logging Service           
             services.AddSingleton<Logging.ILogger, Logger>();
             serviceProvider = services.BuildServiceProvider();   
-            
+  
         }
-
-        
     }
 }
